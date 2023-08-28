@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa</title>
+</head>
+<body>
+    <form action="">
+       <div>
+           <label for="nome">nome:</label>
+           <input type="text" id="nome" placeholder="digite seu nome" required>
+           <label for="email">email:</label>
+           <input type="email" id="email" placeholder="digite seu email" required>
+           <label for="senha">senha:</label>
+           <input type="password" id="senha" placeholder="digite sua senha" required>
+           <label for="range">nivel de força:</label>
+           <input type="range" id="range" required>
+       </div>
+       <div>
+         <p>hoje é um bom dia?</p>
+
+         <input type="radio" id="sim" name="dia" >
+         <label for="sim">sim</label>
+         <input type="radio" id="nao" name="dia" >
+         <label for="nao">não</label>
+         <input type="radio" id="talvez" name="dia" >
+         <label for="talez">talvez</label>
+         <input type="radio" id="nao-sei" name="dia" >
+         <label for="nao-sei">não sei</label>
+       </div>
+       <div>
+        <label for="feliz">você está feliz</label>
+        <select name="feliz" id="feliz">
+            <option value="selected disabled">selecione</option>
+            <option value="sim">sim</option>
+            <option value="nao">não</option>
+            <option value="talvez">talvez</option>
+            <option value="jamais">jamais</option>
+        </select>
+       </div>
+       
+       <button>enviar</button>
+    </form>
+</body>
+</html>
